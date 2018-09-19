@@ -16,6 +16,36 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".menu_principal"
+            android:label="@string/title_activity_menu_principal" />
+        <activity
+            android:name=".menu_llamadas"
+            android:label="@string/title_activity_menu_llamadas" />
+        <activity
+            android:name=".llamar_contacto"
+            android:label="@string/title_activity_llamar_contacto" />
+        <activity
+            android:name=".marcar_numero"
+            android:label="@string/title_activity_marcar_numero" />
+        <activity
+            android:name=".buscador_web"
+            android:label="@string/title_activity_buscador_web" />
+        <activity
+            android:name=".calendario"
+            android:label="@string/title_activity_calendario" />
+        <activity
+            android:name=".emergencia"
+            android:label="@string/title_activity_emergencia" />
+        <activity
+            android:name=".consejos_ayuda"
+            android:label="@string/title_activity_consejos_ayuda" />
+        <activity
+            android:name=".correo"
+            android:label="@string/title_activity_correo" />
+        <activity
+            android:name=".contactos"
+            android:label="@string/title_activity_contactos"></activity>
     </application>
 
 </manifest>
