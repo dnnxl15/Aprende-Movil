@@ -9,16 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Pantalla_principal">
+        <activity android:name=".menu_principal">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".menu_principal"
-            android:label="@string/title_activity_menu_principal" />
         <activity
             android:name=".menu_llamadas"
             android:label="@string/title_activity_menu_llamadas" />
@@ -45,7 +42,7 @@
             android:label="@string/title_activity_correo" />
         <activity
             android:name=".contactos"
-            android:label="@string/title_activity_contactos"></activity>
+            android:label="@string/title_activity_contactos" />
     </application>
 
 </manifest>

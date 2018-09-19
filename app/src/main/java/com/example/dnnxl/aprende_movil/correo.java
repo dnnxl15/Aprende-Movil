@@ -36,9 +36,6 @@ public class correo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_correo);
 
-        mTextMessage = (TextView) findViewById(R.id.message);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 
 }

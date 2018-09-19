@@ -1,5 +1,6 @@
 package com.example.dnnxl.aprende_movil;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -36,9 +37,20 @@ public class contactos extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contactos);
 
-        mTextMessage = (TextView) findViewById(R.id.message);
-        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
-        navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
+        switch (getIntent().getIntExtra("tipoComunicacion", 0)){
+            case 0:
+                setTitle("Contactos - Correo");
+                break;
+            case 1:
+                setTitle("Contactos - Mensajes");
+                break;
+            case 2:
+                setTitle("Contactos - Llamadas");
+                break;
+
+                default:
+
+        }
     }
 
 }
